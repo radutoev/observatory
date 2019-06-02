@@ -11,6 +11,7 @@ scalacOptions ++= Seq(
   "-Yno-adapted-args",
   "-Ywarn-dead-code",
   "-Ywarn-value-discard",
+  "-language:higherKinds",
   "-Xfuture",
   "-Xexperimental"
 )
