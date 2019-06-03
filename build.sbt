@@ -28,7 +28,9 @@ libraryDependencies ++= Seq(
   "io.monix" %% "monix" % "2.1.1",
   // You don’t *have to* use fs2, but in case you want to, we have added the dependency
   "co.fs2" %% "fs2-io" % fs2Version,
-  "org.scalacheck" %% "scalacheck" % "1.12.1" % Test,
+
+  "org.scalatest" %% "scalatest" % "3.0.5" % Test,
+  "org.scalacheck" %% "scalacheck" % "1.14.0" % Test,
   "junit" % "junit" % "4.10" % Test
 )
 

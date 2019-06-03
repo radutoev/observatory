@@ -40,3 +40,7 @@ case class CellPoint(x: Double, y: Double)
   */
 case class Color(red: Int, green: Int, blue: Int)
 
+//Defined by me
+case class StationKey(stn: Option[Int], wban: Option[Int])
+case class TempsLine(month: Int, day: Int, temp: Temperature)
+
